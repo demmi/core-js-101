@@ -142,7 +142,7 @@ function removeFirstOccurrences(str, value) {
  *   '<a>' => 'a'
  */
 function unbracketTag(str) {
-  return str.replaceAll(/<|>/g, '');
+  return str.replace(/<|>/g, '');
 }
 
 
